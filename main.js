@@ -1,6 +1,47 @@
-import './style.css'
+const Discord = require("discord.js");
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const client = new Discord.client();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+client.console.log(
+  "OTUyNDQ0NjM5MDc4NjU4MDY5.Yi2HMQ.5JB7NUesIzpTAz-zjs5v-Qs8vEU"
+);
