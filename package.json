@@ -6,7 +6,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose",
+    "main": "main.js"
   },
   "devDependencies": {
     "vite": "^2.8.0"
