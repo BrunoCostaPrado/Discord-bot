@@ -19,7 +19,11 @@ client.on("message", (message) => {
 
   if (command === "ping") {
     message.channel.send("pong!");
+  } else if (command == "youtube") {
+    message.channel.send("https://www.youtube.com/MynameisByf");
+  }else if(command=="Father","Dad","Creator","father","dad","creater"){
+    message.channel.send("I was create by Bruno Costa Prado, you can find his repo herer: https://github.com/BrunoCostaPrado?tab=repositories")
   }
 });
 
-client.login("OTUyNDQ0NjM5MDc4NjU4MDY5.Yi2HMQ.9vTud0bQ33MOBaxXt6pjHH4Hj_I");
+client.login("Auth_Token");
