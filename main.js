@@ -26,8 +26,6 @@ client.on("message", (message) => {
   }
 });
 
-<<<<<<< HEAD
+
 client.login("Auth_Token");
-=======
-client.login("Auth_Token");
->>>>>>> 0b7e54c5ead84f3e37cc84a6a8a783e964360f1b
+
