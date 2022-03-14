@@ -1,19 +1,25 @@
 {
   "name": "discord-bot",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Music bot made in JavaScript.",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "test": "jest --watchAll --verbose",
-    "main": "main.js"
+    "test":"jest --watchAll --verbose"
   },
-  "devDependencies": {
-    "vite": "^2.8.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoCostaPrado/Discord-bot.git"
   },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoCostaPrado/Discord-bot/issues"
+  },
+  "homepage": "https://github.com/BrunoCostaPrado/Discord-bot#readme",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "jest": "^27.5.1"
+    "discord.js": "^13.6.0"
   }
 }
